@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Neuton:wght@200&family=Yellowtail&family=Oswald:wght@700&display=swap');
+body {
+    background-color: white;
+
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 905px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.header-left p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8pt;
+}
+.header-left span {
+    display: inline-block;
+}
+header h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 33pt;
+}
+
+main {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32pt;
+    padding: 50px 0px 10px 0px;
+}
+
+.dateline {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: lighter;
+    color: grey;
+    padding-bottom: 27px;
+}
+
+.recipe {
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
+    padding: 20px;
+    height: 310px;
+    background-image: url('/assets/list-bg.png');
+    background-size: 905px 305px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 72px 1fr 200px;
+}
+
+article {
+    width: 905px;
+}
+
+.picture{
+    width: 100%;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    padding: 6px
+}
+
+article p, .bio {
+    
+    font-family: 'Neuton', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-indent: 20pt;
+    padding: 10px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: chocolate ;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    border: none;
+    font-weight: lighter;
+
+}
+.bio {
+    text-indent: 0px;
+}
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.border {
+    background-image: url('/assets/border.jpg');
+    width: 100%;
+    height: 15px;
+}
+
+input:checked+ label {
+    text-decoration:line-through;
+}
+
+footer h2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.footer-picture {
+    display: grid;
+    grid-template-columns: 1fr 33px 1fr;
+    align-items: center;
+    
+}
+.footer-bottom {
+    color: darkgrey;
+    text-align: center;
+    padding: 20px;
+}
