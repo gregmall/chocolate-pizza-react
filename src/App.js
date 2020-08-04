@@ -3,8 +3,10 @@ import './App.css';
 import './style/style.css';
 import Header from './Header.js';
 import Main from './Main.js';
-import Border from './Border.js'
-import Recipe from './Recipe.js'
+import Border from './Border.js';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +14,7 @@ function App() {
       <Border />
       <Main />
       <Border />
-      <Recipe />
+      
     </div>
   );
 }

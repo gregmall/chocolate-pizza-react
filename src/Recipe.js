@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
-
+import IngredientsList  from './IngredientsList';
+import left from './ingredients-left';
+import right from './ingredients-right';
 export default class Recipe extends Component {
     render() {
         return (
             <div className="recipe">
-                <ul className="left">
-                    <li>food here</li>
-                </ul>
-                <ul className="right">
-                    <li>food there</li>
-                </ul>
+               <IngredientsList side = 'left' ingredients = {left} />
+               <IngredientsList side = 'right' ingredients = {right} />
                 
             </div>
         )
