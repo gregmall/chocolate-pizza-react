@@ -1,6 +1,6 @@
 import React from 'react';
 //import logo from './assets/logo.png';
-import socialMediaArray from './social-media-array.js'
+
 import SocialIcons from './SocialIcons';
 export default class Header extends React.Component {
     render(){
@@ -14,7 +14,7 @@ export default class Header extends React.Component {
                     </span>
                 </div>
                 <div className="social-links">
-                    {socialMediaArray.map(icon  =>  <SocialIcons src= {icon.src} alt = {icon.alt}/>)
+                    {this.props.data.map(icon  =>  <SocialIcons src= {icon.src} alt = {icon.alt}/>)
                     }
 
                     
