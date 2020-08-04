@@ -4,6 +4,7 @@ import './style/style.css';
 import Header from './Header.js';
 import Main from './Main.js';
 import Border from './Border.js';
+import Footer from './Footer.js';
 
 
 
@@ -14,7 +15,7 @@ function App() {
       <Border />
       <Main />
       <Border />
-      
+      <Footer />
     </div>
   );
 }

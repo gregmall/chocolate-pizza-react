@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './assets/logo.png';
-
+import socialMediaArray from './social-media-array.js'
+import SocialIcons from './SocialIcons';
 export default class Header extends React.Component {
     render(){
         return(
@@ -13,14 +14,10 @@ export default class Header extends React.Component {
                     </span>
                 </div>
                 <div className="social-links">
-                    <img src="assets/fb-icon.png" alt="Facebook"/>
-                    <img src="assets/twit-icon.png" alt="Twitter"/>
-                    <img src="assets/gp-icon.png" alt="Google plus, this might need an update."/>
-                    <img src="assets/insta-icon.png" alt="Instagram"/>
-                    <img src="assets/flic-icon.png" alt="Flickr"/>
-                    <img src="assets/pint-icon.png" alt="Pinterest"/>
-                    <img src="assets/rss-icon.png" alt="RSS feed"/>
-                    <img src="assets/mail-icon.png" alt="Mail link"/>
+                    {socialMediaArray.map(icon  =>  <SocialIcons src= {icon.src} alt = {icon.alt}/>)
+                    }
+
+                    
                 </div>
             </header>
 
