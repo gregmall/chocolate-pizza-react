@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import MainTop from './MainTop';
+import Picture from './Picture';
+import Recipe from './Recipe.js';
+import Article from './Article';
 
 export default class Main extends Component {
     render() {
         return (
             <main>
-                <div className="main-top"> 
-                    <h1>Chocolate Pizza</h1>
-                    <div className="dateline">
-                        <div className="date"> POSTED ON 15 DEC 2013 / DESSERTS</div>
-                    </div>
-                </div>
-                
+               <MainTop />
+               <Picture />
+               <Article />
+               <Recipe />
             </main>
         )
     }

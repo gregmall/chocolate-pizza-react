@@ -4,7 +4,7 @@ import './style/style.css';
 import Header from './Header.js';
 import Main from './Main.js';
 import Border from './Border.js';
-import Recipe from './Recipe.js';
+
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Border />
       <Main />
       <Border />
-      <Recipe />
+      
     </div>
   );
 }
